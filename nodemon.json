@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/nodemon",
+  "ignore": [".gitignore", "node_modules", "dist"],
+  "watch": ["src/app.ts"],
+  "ext": "*.tsc,*.json",
+  "execMap": {
+    "ts": "node -r @swc-node/register"
+  },
+  "quiet": true,
+  "verbose": false,
+  "signal": "SIGTERM",
+  "legacyWatch": true
+}

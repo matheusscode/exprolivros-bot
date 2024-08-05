@@ -1,0 +1,29 @@
+{
+  "name": "bestsellers-wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "build": "swc src -d dist --strip-leading-paths"
+  },
+  "keywords": [],
+  "author": "matheusscode",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.10.3",
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.6.13",
+    "@types/node": "^22.1.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.3",
+    "whatsapp-web.js": "^1.25.0"
+  }
+}
